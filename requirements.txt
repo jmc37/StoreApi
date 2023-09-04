@@ -1,6 +1,6 @@
 flask
 flask-smorest
-flask-cors==3.0.10
+flask-cors
 python-dotenv
 sqlalchemy
 flask-sqlalchemy
