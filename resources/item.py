@@ -25,7 +25,7 @@ class ItemList(MethodView):
 
         return item, 201
 
-    @jwt_required()
+    # @jwt_required()
     @blp.response(200, ItemSchema(many=True))
     def get(self):  # Get all items
         return ItemModel.query.all()
