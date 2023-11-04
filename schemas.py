@@ -29,7 +29,6 @@ class ItemSchema(PlainItemSchema):
 class ItemUpdataSchema(Schema):
     name = fields.Str()
     price = fields.Float()
-    store_id = fields.Int()
     description = fields.Str(required=True)
     image = fields.Str(required=True)
 
